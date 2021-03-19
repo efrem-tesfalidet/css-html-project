@@ -1,0 +1,37 @@
+body {
+    margin: 40px;
+    width: 500px;
+}
+
+h2 {
+    background-color: chartreuse;
+    height: 70px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+#container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#d1 {
+    background-color: chartreuse;
+    width: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 100px;
+}
+
+span {
+    color: chartreuse;
+}
